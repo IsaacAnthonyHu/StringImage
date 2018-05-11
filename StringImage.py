@@ -29,7 +29,7 @@ def get_char(r,g,b,alpha = 256):
     unit = (256.0 + 1)/length
     return ascii_char[int(gray/unit)]
 
-if __name__ == '__main__':
+if __name__ == '__main__': # 若模块是直接运行的，则执行以下代码块
 
     im = Image.open(IMG)
     im = im.resize((WIDTH,HEIGHT), Image.NEAREST)
