@@ -12,6 +12,9 @@ parser.add_argument('--height', type = int, default = 80) #输出字符画高
 #获取参数
 args = parser.parse_args()
 
+print(args)
+input("press any key to continue")
+
 IMG = args.file
 WIDTH = args.width
 HEIGHT = args.height
